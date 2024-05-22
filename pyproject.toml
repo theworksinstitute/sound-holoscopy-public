@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+
+[tool.setuptools]
+packages = ["desktop_ui"]
+
+[project]
+version = "0.0.1"
+name = "sound-holoscopy"
+authors = [
+  { name="Luka Nadiradze", email="lnadi17@freeuni.edu.ge" },
+]
+description = "Sound Holoscopy"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
